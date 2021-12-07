@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:60416",
-      "sslPort": 44331
+      "applicationUrl": "http://localhost:40722",
+      "sslPort": 44360
     }
   },
   "profiles": {
-    "LinkPigServer": {
+    "Server": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7283;http://localhost:5123",
+      "applicationUrl": "https://localhost:7184;http://localhost:5184",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

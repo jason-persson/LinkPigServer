@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPigServer", "LinkPigServer.csproj", "{A4B740A8-DCF8-4529-BBEB-55296E9486B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Src\Domain\Domain.csproj", "{EE5237B1-A1C8-4F26-8615-D69E03943128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{FD120A06-E893-47B6-AB7E-6526D6F80850}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Src\Server\Server.csproj", "{097486A2-240B-4320-90D7-976510A58CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Src\Database\Database.csproj", "{42F86E4C-FCC7-4315-B53E-21D9AFF25A95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A5CF2C05-8C52-4EDF-BD34-D884B3369EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTests", "Tests\DomainTests\DomainTests.csproj", "{862879D1-E42C-4A8C-B6CA-D747826D0F46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +21,33 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A4B740A8-DCF8-4529-BBEB-55296E9486B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4B740A8-DCF8-4529-BBEB-55296E9486B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4B740A8-DCF8-4529-BBEB-55296E9486B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4B740A8-DCF8-4529-BBEB-55296E9486B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5237B1-A1C8-4F26-8615-D69E03943128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5237B1-A1C8-4F26-8615-D69E03943128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5237B1-A1C8-4F26-8615-D69E03943128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5237B1-A1C8-4F26-8615-D69E03943128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097486A2-240B-4320-90D7-976510A58CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097486A2-240B-4320-90D7-976510A58CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097486A2-240B-4320-90D7-976510A58CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097486A2-240B-4320-90D7-976510A58CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F86E4C-FCC7-4315-B53E-21D9AFF25A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F86E4C-FCC7-4315-B53E-21D9AFF25A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F86E4C-FCC7-4315-B53E-21D9AFF25A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F86E4C-FCC7-4315-B53E-21D9AFF25A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862879D1-E42C-4A8C-B6CA-D747826D0F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862879D1-E42C-4A8C-B6CA-D747826D0F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862879D1-E42C-4A8C-B6CA-D747826D0F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862879D1-E42C-4A8C-B6CA-D747826D0F46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE5237B1-A1C8-4F26-8615-D69E03943128} = {FD120A06-E893-47B6-AB7E-6526D6F80850}
+		{097486A2-240B-4320-90D7-976510A58CE2} = {FD120A06-E893-47B6-AB7E-6526D6F80850}
+		{42F86E4C-FCC7-4315-B53E-21D9AFF25A95} = {FD120A06-E893-47B6-AB7E-6526D6F80850}
+		{862879D1-E42C-4A8C-B6CA-D747826D0F46} = {A5CF2C05-8C52-4EDF-BD34-D884B3369EDE}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8028A6C4-39FF-42D6-9033-E0F74C760C97}
+		SolutionGuid = {613B5A97-BB41-4F79-918B-09CF9859F58D}
 	EndGlobalSection
 EndGlobal
